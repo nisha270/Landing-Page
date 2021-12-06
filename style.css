@@ -1,0 +1,283 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/8/85/Moon%2C_tree_and_reflection.jpg");
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;  
+}
+@media (max-width:1024px) {
+    .main{
+        width:130%;
+    }
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: 0;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #e46c0a;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:rgb(247, 239, 239);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(133, 96, 69);
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-top: auto;
+}
+@media  (max-width:1024px) {
+    .search{
+        display: none;
+    }
+}
+
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: solid #e46c0a;
+    margin-top: 13px;
+    color: #e46c0a;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #e46c0a;
+    border: 2px solid #ddbb9f;
+    margin-top: 13px;
+    color: rgb(248, 239, 239);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focous{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #e46c0a;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .4s ease;
+}
+
+.cn:hover{
+    background-color: white;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+@media (max-width:1024px) {
+    .form{
+        width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    border-radius: 10px;
+    padding: 25px; 
+    }
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #e46c0a;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 2px;
+    padding: 8px;
+}   
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #e46c0a;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: white;
+    color: #e46c0a;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 17px;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #e46c0a;
+    text-align: center;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color: #ff7200;
+}
